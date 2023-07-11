@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "306932264111",
+    "project_id": "gamchha-52035",
+    "storage_bucket": "gamchha-52035.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306932264111:android:48a65c651209475f91b85a",
+        "android_client_info": {
+          "package_name": "com.dg1223.gamchha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306932264111-1f4q8uvp1o5tqou6qfo7deo6l0jl1v7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAASnf6s2TRe7mlQYN0phoYPZbe5qVodyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306932264111-1f4q8uvp1o5tqou6qfo7deo6l0jl1v7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
