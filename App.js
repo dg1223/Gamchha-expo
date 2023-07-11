@@ -6,18 +6,25 @@ const App = () => {
   return (
     <View style={styles.container} testID="container">
       <Text>
-        Be the best <Text style={styles.gamchhaText}>Gamchha</Text> that you can
-        ever be...
+        <Text style={styles.baseText}>Be the best</Text>
+        <Text style={styles.gamchhaText} inline={true}>
+          Gamchha
+        </Text>
+        <Text style={styles.baseText} inline={true}>
+          that you can ever be...
+        </Text>
       </Text>
     </View>
   );
 };
 
-// Color pallette
-// error  Color literal: { backgroundColor: '#fff' }  react-native/no-color-literals
 const WHITE_COLOR = "#fff";
+const RED_COLOR = "red";
 
 const styles = StyleSheet.create({
+  baseText: {
+    fontSize: 18,
+  },
   container: {
     alignItems: "center",
     backgroundColor: WHITE_COLOR,
@@ -25,11 +32,10 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   gamchhaText: {
-    fontWeight: "bold",
-    color: "red",
+    color: RED_COLOR,
     fontSize: 18,
+    fontWeight: "bold",
   },
 });
 
-// module.exports = App;
 export default App;
