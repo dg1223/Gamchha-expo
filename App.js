@@ -6,9 +6,9 @@ const App = () => {
   return (
     <View style={styles.container} testID="container">
       <Text>
-        <Text style={styles.baseText}>Be the best</Text>
+        <Text style={styles.baseText}>Be the best </Text>
         <Text style={styles.gamchhaText} inline={true}>
-          Gamchha
+          Gamchha&nbsp;
         </Text>
         <Text style={styles.baseText} inline={true}>
           that you can ever be...
